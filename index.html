@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css ">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="bg-light">
+	<!-- Navbar Start -->
+	<nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+  		<div class="container-lg">
+  			<a class="navbar-brand text-primary fw-bold fs-4" id="title" href="#">ポートフォリオ</a>
+  			<!-- <div class="d-flex justify-content-end">
+  				<select name="" id="">
+  				<option value="en">English</option>
+  				<option value="jp">日本語</option>
+  			</select>
+  			</div> -->
+  			<div class="dropdown">
+  				<button class="btn btn-secondary bg-primary px-3" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+  				<i class="fas fa-bars"></i>
+  				</button>
+  				<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+  					<li><a class="dropdown-item" id="navHome" href="#">ホーム</a></li>
+    				<li><a class="dropdown-item" id="navAbout" href="#about">アバウト</a></li>
+    				<li><a class="dropdown-item" id="navService" href="#services">サービス</a></li>
+    				<li><a class="dropdown-item" id="navPortfolio" href="#portfolio">ポートフォリオ</a></li>
+    				<li><a class="dropdown-item" id="navContact" href="#contactus">お問い合わせ</a></li>
+    			</ul>
+			</div>
+  		</div>
+	</nav>
+	<!-- Navbar End -->
+
+	<!-- Home Section Start -->
+	<section class="home" py-5>
+		<div class="container-lg">
+			<div class="row bg-light min-vh-100 align-items-center align-content-center">
+				<div class="col-md-6 mt-5 mt-md-0">
+					<div class="home-img text-center">
+						<img src="img/profile.png" class="rounded-circle mw-100" alt="Profile Image">
+					</div>
+				</div>
+				<div class="col-md-6 mt-5 mt-md-0 order-md-first">
+					<div class="home-text">
+						<p class="text-muted mb-3 fs-4" id="greeting">初めまして、私は</p>
+						<h1 class="text-primary text-uppercase fs-1 fw-bold" id="profession">フラッターデベロッパー</h1>
+						<h2 class="fs-4" id="name">シュレスタ　スラズ　ラル</h2>
+						<p class="mt-5 mb-5 text-muted fs-4" id="personalInfo">私はFlutterの専門家で、UI/UXデザイン、状態管理、API連携、パフォーマンス最適化、そしてレスポンシブなアプリケーションの開発に精通しています。</p>
+						<a href="#portfolio" class="text-uppercase btn btn-primary px-4 mt-3" id=workBtn>私の仕事</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Home Section End -->
+
+	<!-- About Section Start-->
+	<section class="about py-5" id="about">
+		<div class="container-lg py-4">
+			<div class="row justify-content-center">
+				<div class="col-lg-8">
+					<div class="section-title text-center">
+						<h2 class="fw-bold mb-5" id="aboutHeading">私について</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="about-text">
+						<h3 class="fs-4 mb-3" id="aboutTitle">技術を活用してものづくりをする、</h3>
+						<p class="text-muted" id="aboutInfo">私は、技術を軸にものづくりを楽しむ開発者です。モバイルアプリケーション開発をはじめ、データベースやさまざまな分野に興味を持ち、常に新しい技術を取り入れながら創造に取り組んでいます。<br>&nbsp;</br>アイデアを形にする過程では、試行錯誤を重ねながら、技術のスパイスを加えてより洗練されたものへと仕上げていくことを大切にしています。実用性と魅力を兼ね備えたプロダクトを生み出すことに喜びを感じ、日々学び続けています。</p>
+					</div>
+					<!-- <div class="row text-center text-uppercase my-3">
+						<div class="col-sm-4">
+							<div col="fact-item">
+								<h4 class="fs-1 fw-bold">15</h4>
+								<p class="text-muted">Projects Completed</p>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div col="fact-item">
+								<h4 class="fs-1 fw-bold">90</h4>
+								<p class="text-muted">Happy Clients</p>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div col="fact-item">
+								<h4 class="fs-1 fw-bold">95</h4>
+								<p class="text-muted">Positive Reviews</p>
+							</div>
+						</div>
+					</div> -->
+					<div class="row">
+						<div class="col-lg-12 d-flex align-items-center">
+							<a href="履歴書.pdf"　download class="btn btn-primary px-3 me-5">履歴書をダウンロード</a>
+							<!-- <div class="social-links">
+								<a href="https://www.linkedin.com/in/suraj-lal-shrestha-b752ab1b5/" class="text-dark me-2"><i class="fa-brands fa-linkedin"></i></a>
+							</div> -->
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5 mt-5 mt-md-0">
+					<div class="skill-item mb-4">
+						<h3 class="fs-6" id="skill1">Bootstrap</h3>
+						<div class="progress" style="height: 6px;">
+  							<div class="progress-bar bg-primary" role="progressbar" style="width: 68%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+					</div>
+					<div class="skill-item mb-4">
+						<h3 class="fs-6" id="skill2">SQL</h3>
+						<div class="progress" style="height: 6px;">
+  							<div class="progress-bar bg-primary" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+					</div>
+					<div class="skill-item mb-4">
+						<h3 class="fs-6" id="skill3">Flutter</h3>
+						<div class="progress" style="height: 6px;">
+  							<div class="progress-bar bg-primary" role="progressbar" style="width: 84%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- About Section End -->
+
+	<!-- Service Section Start -->
+	<section class="services py-5" id="services">
+		<div class="container-lg py-4">
+			<div class="row justify-content-center">
+				<div class="col-lg-8">
+					<div class="section-title text-center">
+						<h2 class="fw-bold mb-5" id="serviceTitle">自分がすること</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-md-6 col-lg-4 mb-4">
+					<div class="service-item shadow-sm p-4 rounded bg-white">
+						<div class="icon my-3 text-primary fs-2">
+							<i class="fas fa-code"></i>
+						</div>
+						<h3 class="fs-5 py-2" id="serviceTitle1">モバイルアプリケーション開発</h3>
+						<p class="text-muted" id="serviceInfo1">高品質で使いやすいアプリケーションの開発に精通しています。</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 mb-4">
+					<div class="service-item shadow-sm p-4 rounded bg-white">
+						<div class="icon my-3 text-primary fs-2">
+							<i class="fas fa-lightbulb"></i>
+						</div>
+						<h3 class="fs-5 py-2" id="serviceTitle2">クリエイティブデザイン</h3>
+						<p class="text-muted" id="serviceInfo2">視覚的に魅力的で、ユーザー中心のアプリケーションを創り上げます。</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 mb-4">
+					<div class="service-item shadow-sm p-4 rounded bg-white">
+						<div class="icon my-3 text-primary fs-2">
+							<i class="fas fa-code"></i>
+						</div>
+						<h3 class="fs-5 py-2" id="serviceTitle3">プロジェクト管理</h3>
+						<p class="text-muted" id="serviceInfo3">私は、スケジュール管理やタスクの優先順位付けを通じて、効率的な進捗と目標達成を支援します。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Service Section End -->
+
+	<!-- Portfolio Section Start -->
+	<section class="portfolio bg-white py-5" id="portfolio">
+		<div class="container-lg py-4">
+			<div class="row justify-content-center">
+				<div class="col-lg-8">
+					<div class="section-title text-center">
+						<h2 class="fw-bold mb-5">私の仕事</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row g-4">
+				<!-- <div class="col-md-6 col-lg-4">
+					<div class="portfolio-item">
+						<img src="img/portfolio.png" class="w-100 img-thumbnail" alt="portfolio item">
+						<h3 class="text-capitalize fs-5 my-2">App 1</h3>
+						<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#portfolioModals">See More</button>
+					</div>
+				</div> -->
+				<div class="col-md-6 col-lg-4 mb-4">
+    				<div class="portfolio-item">
+        				<img src="img/4.png" class="w-100 img-thumbnail" alt="portfolio item">
+        				<h3 class="text-capitalize fs-5 my-2">図書館管理システム</h3>
+        				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModal"
+            			data-title="図書館管理システム" data-images="img/4.png,img/5.png,img/6.png" data-features="ユーザーは2つのグループに分かれており、各役割に応じてログイン後の画面が異なります。,
+						一般的なユーザーの場合、本を検索したり、注文したりすることはできます。, 管理者の場合、本を追加したり、それの情報を編集したり、または消したりすることは可能です。", data-tech="ステートマネジメント→プロバイダ（Provider）,　データベース→ファイヤーベース" data-link="https://example.com/app1">もっと見る</button>
+    				</div>
+				</div>
+				<div class="col-md-6 col-lg-4 mb-4">
+    				<div class="portfolio-item">
+        				<img src="img/7.jpg" class="w-100 img-thumbnail" alt="portfolio item">
+        				<h3 class="text-capitalize fs-5 my-2">ブログアプリケーション</h3>
+        				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModal"
+            			data-title="ブログアプリケーション" data-images="img/7.jpg,img/8.jpg,img/9.jpg" data-features="登録されているすべてのユーザーの情報を閲覧できます。,
+						各投稿がどのユーザーによるものかを明確に確認できます。" data-tech="ステートマネジメント→プロバイダ（Provider）,　データをゲットするために 以下の URL を使用しました　https://jsonplaceholder.typicode.com/users/" data-link="https://example.com/app1">もっと見る</button>
+    				</div>
+				</div>
+				<div class="col-md-6 col-lg-4 mb-4">
+    				<div class="portfolio-item">
+        				<img src="img/1.png" class="w-100 img-thumbnail" alt="portfolio item">
+        				<h3 class="text-capitalize fs-5 my-2">学校管理システム</h3>
+        				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModal"
+            			data-title="学校管理システム" data-images="img/1.png,img/2.png,img/3.png" data-features="ユーザーは4つのグループに分かれており、各役割に応じてログイン後の画面が異なります。</br> 管理者、先生、学生、両親,
+						管理者は学校のデータを編集したり 。,　先生が出した宿題は、両親と学生が閲覧できます。" data-tech="ステートマネジメント→プロバイダ（Provider）,　バックエンド→DJango,データベース→PostgreSQL" data-link="https://example.com/app1">もっと見る</button>
+    				</div>
+				</div>
+				<div class="col-md-6 col-lg-4 mb-4">
+    				<div class="portfolio-item">
+        				<img src="img/10.jpg" class="w-100 img-thumbnail" alt="portfolio item">
+        				<h3 class="text-capitalize fs-5 my-2">ツアーアプリケーション</h3>
+        				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModal"
+            			data-title="ツアーアプリケーション" data-images="img/10.jpg,img/11.jpg,img/12.jpg" data-features="旅行先のリストを表示します。,さまざまなホテルをおすすめされます。
+						,お好みのホテルを予約することができます。" data-tech="画像を表示するために、カルーセルスライダーという パッケージを使用しました。,　データを表示するためにプロジェクトのモデルを使用しました。" data-link="https://example.com/app1">もっと見る</button>
+    				</div>
+				</div>
+				<div class="col-md-6 col-lg-4 mb-4">
+    				<div class="portfolio-item">
+        				<img src="img/14.jpg" class="w-100 img-thumbnail" alt="portfolio item">
+        				<h3 class="text-capitalize fs-5 my-2">料理アプリケーション</h3>
+        				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#portfolioModal"
+            			data-title="料理アプリケーション" data-images="img/13.jpg,img/14.jpg,img/15.jpg" data-features="食品は選択されたカテゴリに応じて表示されます。,　洗濯された料理に必要とされる材料と作り方 順番に表示されます。" data-tech="データを表示するためにプロジェクトのモデルを使用しました。,　アプリケーションのドロワーのためにhidden_drawer_menuという パッケージを使用しました。" data-link="https://example.com/app1">もっと見る</button>
+    				</div>
+				</div>
+
+
+				<div class="modal fade" id="portfolioModal" tabindex="-1" aria-labelledby="portfolioModalLabel" aria-hidden="true">
+    				<div class="modal-dialog modal-lg modal-dialog-centered:"> <!-- Make modal larger -->
+        				<div class="modal-content">
+            				<div class="modal-header">
+                				<h5 class="modal-title" id="modalTitle">App Title</h5>
+                				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            				</div>
+            				<div class="modal-body d-flex justify-content-center align-items-center flex-column px-4">
+
+                				<!-- Carousel Slider -->
+                				<div id="modalCarousel" class="carousel slide mb-5" data-bs-ride="carousel" style="max-width: 600px; height: 340px;">
+                    				<div class="carousel-inner" id="carouselImages">
+                        			<!-- Images will be added dynamically -->
+                    				</div>
+                    				<button class="carousel-control-prev" type="button" data-bs-target="#modalCarousel" data-bs-slide="prev">
+                        				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    				</button>
+                    				<button class="carousel-control-next" type="button" data-bs-target="#modalCarousel" data-bs-slide="next">
+                        				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    				</button>
+                				</div>
+
+    							<!-- Tabs for Description, Features & Technologies -->
+    							<div class="row justify-content-center mt-4 w-100">
+    								<ul class="nav nav-tabs mt-3 w-100" id="productTabs">
+        							<!-- <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#descTab">アプリについて</a></li> -->
+        							<li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#featuresTab">機能</a></li>
+        							<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#technologyTab">使用された技術</a></li>
+    								</ul>
+
+    								<div class="tab-content mt-3">
+        								<!-- <div class="tab-pane fade show active" id="descTab">
+            								<p id="modalDescription" class="text-justify" style="font-size: 18px; margin: 10px;">Description</p>
+        								</div> -->
+        								<div class="tab-pane fade show active" id="featuresTab">
+            								<p id="modalFeatures" class="text-justify" style="font-size: 18px; margin: 10px;">Features</p>
+        								</div>
+        								<div class="tab-pane fade" id="technologyTab">
+            								<p id="modalTechnology" class="text-justify" style="font-size: 18px; margin: 10px;">Technology</p>
+        								</div>
+    								</div>
+    								<!-- External Link -->
+                					<div class="text-center mt-3">
+                    					<a id="modalLink" href="#" class="btn btn-primary" target="_blank">View Source Code</a>
+                					</div>
+    							</div>
+
+            				</div>
+        				</div>
+    				</div>
+				</div> 
+			</div>
+		</div>
+	</section>
+	<!-- Portfolio Section End -->
+
+	<!-- Contact Section Start -->
+	<section class="contact py-5" id="contactus">
+		<div class="container-lg py-4">
+			<div class="row justify-content-center">
+				<div class="col-lg-8">
+					<div class="section-title text-center">
+						<h2 class="fw-bold mb-5" id="contactTitle">お問い合わせ</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-5">
+						<div class="contact-item d-flex mb-3">
+							<div class="icon fs-4 text-primary">
+								<i class="fas fa-envelope"></i>
+							</div>
+							<div class="text ms-3">
+								<h3 class="fs-5" id="emailTitle">メールアドレス</h3>
+								<p class="text-muted m-0">surajlalshrestha9@gmail.com</p>
+							</div>
+						</div>
+						<div class="contact-item d-flex mb-3">
+							<div class="icon fs-4 text-primary">
+								<i class="fas fa-phone"></i>
+							</div>
+							<div class="text ms-3">
+								<h3 class="fs-5" id="phoneTitle">携帯電話</h3>
+								<p class="text-muted m-0">090-8542-4045</p>
+							</div>
+						</div>
+						<div class="contact-item d-flex mb-3">
+							<div class="icon fs-4 text-primary">
+								<i class="fas fa-map-marker-alt"></i>
+							</div>
+							<div class="text ms-3">
+								<h3 class="fs-5" id="addressTitle">住所</h3>
+								<p class="text-muted　fs-4" id="addressInfo">三重県鈴鹿市道伯町2419番地<br>メゾン・ド・グラシューズ２０２</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7">
+						<div class="contact-form">
+							<form action="https://api.web3forms.com/submit" method="POST" class="contact">
+								<input type="hidden" name="access_key" value="7bb288fc-045c-4116-8436-7f150b299e0b">
+								<div class="row">
+									<div class="col-lg-6 mb-4 field">
+										<input type="text" name="name" placeholder="お名前" class="form-control form-control-lg fs-6 border-0 shadow-sm" required>
+									</div>
+									<div class="col-lg-6 mb-4 field">
+										<input type="email" name="email" placeholder="メールアドレス" class="form-control form-control-lg fs-6 border-0 shadow-sm" required>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-12 mb-4 field">
+										<input type="text" name="subject" placeholder="件名" class="form-control form-control-lg fs-6 border-0 shadow-sm" required>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-12 mb-4 field">
+										<textarea rows="5" name="message" placeholder="メッセージ" class="form-control form-control-lg fs-6 border-0 shadow-sm" required></textarea>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-12">
+										<button type="submit" class="btn btn-primary px-3">メッセージを送信</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Contact Section End -->
+
+	<footer class="footer">
+		<div class="container-lg">
+			<div class="row">
+				<div class="col-lg-12">
+					
+				</div>
+			</div>
+		</div>
+	</footer>
+
+<!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
